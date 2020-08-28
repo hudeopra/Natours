@@ -1,4 +1,14 @@
+/*
 
+animation-delay: 3s; (to delay animation) 
+animation-iteration-count: 3; (number of times the animation occors)
+animation-timing-function: ease-out; (ease animation function)
+backface-visibility: hidden; (determines wether or not the 
+                            back part of the element we transformed is 
+                            visible or hidden for user)
+animation-fill-mode: backwards; (will start animation before 0%)
+
+*/
 @-webkit-keyframes moveInLeft{
     0%{
         opacity: 0;
