@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="sass/style.css">
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+    <header>
+        <div class="header d-flex justify-content-between align-items-center">
+            <div class="header__logo">
+                <a href="/Hankook/">
+                    <img src="img/h-logo.svg" alt="header logo">
+                </a>
+            </div>
+            <div class="header__language d-flex align-items-center text-uppercase font-weight-bold">
+                <a href="#">en</a>
+                <span class="header__language--divider"></span>
+                <a href="#" class="header__language--active ">ar</a>
+            </div>
+        </div>
+    </header>
+    <main class="booking">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="booking-icon">
+                    <span class="icon-Register icomoon-icon"></span>
+                </div>
+                <div class="booking-icon">
+                    <span class="icon-register-comp icomoon-icon"></span>
+                </div>
+                <div class="booking-icon">
+                    <span class="icon-register-upload icomoon-icon"></span>
+                </div>
+                <div class="booking-icon">
+                    <span class="icon-thanks icomoon-icon"></span>
+                </div>
+                <div class="booking-icon">
+                    <span class="icon-user-pass icomoon-icon"></span>
+                </div>
+            </div>
+            <div class="booking-progress d-flex flex-wrap">
+                <h2 class="col-4 active">1. <span class="booking-progress__name">Register</span></h2>
+                <h2 class="col-4">2. <span class="booking-progress__name">verify</span>
+                    <!-- <span class="d-block col-3 col-md-12"></span> -->
+                </h2>
+                <h2 class="col-4">3. <span class="booking-progress__name">upload proof</span></h2>
+                <div class="booking-progress__bar col-12">
+                    <span class="after col-4"></span>
+                </div>
+
+            </div>
+            <form action="">
+
+
+
+
+
+                <!-- <section class="booking-container thank">
+                    <p class="text-center">Thank you for registration. <br>You have been nominated to a <br>Weekly Lucky
+                        Draw on mobile
+                        phone and <br>monthly on car.</p>
+                </section>
+                <section class="booking-container login">
+
+                    <div class="booking-form row login__input">
+                        <div class="col-12 row">
+                            <label for="email-address">Email Address</label>
+                            <input id="email-address" type="text" placeholder="email" required>
+                        </div>
+                        <div class="col-12 row">
+                            <label for="password">password</label>
+                            <input id="password" type="password" placeholder="******" required>
+                        </div>
+                    </div>
+                    <div class="booking-form row align-items-baseline">
+                        <div class="col-12 col-md-4">
+                            <input class="btn-hover login-btn" type="submit" value="login">
+                        </div>
+                        <p class=" col-12 col-md-8 text-right btn-text">
+                            Don’t have password?
+                            <a class="reset" href="#">Reset it now.</a>
+                        </p>
+                    </div>
+                </section> -->
+            </form>
+
+        </div>
+
+    </main>
+    <footer class="footer d-flex justify-content-between align-items-center">
+        <div class="footer__logo">
+
+            <img src="img/f-logo.svg" alt="header logo">
+        </div>
+        <a href="#">Terms & Conditions</a>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="mt-wrapper">
+        <div class="container">
+            <div id="mt-progress_bar" class="mt-progress_bar row">
+                <div class="mt-progress_percentage step-1"></div>
+                <ul class="mt-steps row col-12">
+                    <li class="mt-active col-4">1. <span>Register</span></li>
+                    <li class="step_2 col-4">2. <span>Verify</span></li>
+                    <li class="step_3 col-4">3. <span>upload proof</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-content">
+            <form class="mt-form" novalidate>
+                <div class="mt-form_content">
+                    <section class="mt-section mt-active" id="step-1">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-10 col-md-8">
+                                    <section class="booking-container">
+                                        <div class="booking-form">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label for="first-name">first name</label>
+                                                    <input id="first-name" type="text" autocomplete="fname"
+                                                        placeholder="first name" required>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <label for="last-name">last name</label>
+                                                    <input id="last-name" type="text" autocomplete="lname"
+                                                        placeholder="last name" required>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label for="city">city</label>
+                                                    <select name="city" id="city">
+                                                        <option value="A">Aaaaaaaaa</option>
+                                                        <option value="B">B</option>
+                                                        <option value="C">C</option>
+                                                        <option value="D">D</option>
+                                                        <option value="E">E</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label for="mobile">mobile</label>
+                                                    <input id="mobile" type="text" placeholder="mobile" required>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <label for="email">email</label>
+                                                    <input id="email" type="email" autocomplete="email"
+                                                        placeholder="email" required>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-baseline">
+                                                <div class="col-12 col-md-3">
+                                                    <input class="btn-hover" type="submit" value="next">
+                                                </div>
+                                                <p class=" btn-text col-12 col-md-9 text-right">
+                                                    We will send you OTP on your Phone Number.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!--/mt-form_row-->
+                                    <div class="mt-btn_wrap text-center">
+                                        <a href="javascript:void(0)" data-step="2"
+                                            class="mt-btn_next pt5 pb5 text-center bg-orange mb0 fc-white fw-400 skewX-25-minus border-left-green-5">
+                                            <span
+                                                class="display-inline-block fc-white skewX-25 fs-20 text-uppercase">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- // step-1 -->
+                    <!-- step 2 -->
+                    <section class="mt-section mt-active" id="step-2">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-10 col-md-8">
+                                    <section class="booking-container">
+                                        <div class="one-time-password booking-form row justify-content-center">
+                                            <div class="row booking-heading text-center">
+                                                <h2 class="col-12">Please enter the One-Time-Password to verify your
+                                                    account0o
+                                                </h2>
+                                                <p class=" col-12 text-center">A One-Time-Password has been sent to
+                                                    5555555555</p>
+                                            </div>
+                                            <div class="form row col-12 justify-content-center">
+                                                <label for="password">mobile</label>
+                                                <input class="col-12 col-md-4" id="password" type="text" required>
+                                            </div>
+                                            <div class="row col-12 row justify-content-center text-center">
+                                                <div class="col-12 col-md-3">
+                                                    <input class="btn-hover" type="submit" value="validate">
+                                                </div>
+                                                <p class=" col-12">
+                                                    Didn’t receive the verification OTP?
+                                                    <a class="send-otp" href="#">Resend again.</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <div class="mt-btn_wrap text-center">
+                                        <a href="javascript:void(0)" data-back="1"
+                                            class="mt-btn_back pt5 pb5 text-center bg-green mb0 fc-white fw-400 skewX-25-minus border-left-orange-5">
+                                            <span
+                                                class="display-inline-block fc-white skewX-25 fs-20 text-uppercase">Back</span>
+                                        </a>
+                                        <a href="javascript:void(0)" data-step="3"
+                                            class="mt-btn_next pt5 pb5 text-center bg-orange mb0 fc-white fw-400 skewX-25-minus border-left-green-5">
+                                            <span
+                                                class="display-inline-block fc-white skewX-25 fs-20 text-uppercase">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- //step-2 -->
+                    <!-- step - 3 -->
+                    <section class="mt-section mt-active" id="step-3">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-10 col-md-8">
+                                    <section class="booking-container">
+                                        <div class="booking-form upload-proof">
+                                            <div class="row radio">
+                                                <div class="row col-12">
+                                                    <label class="col-12" for="radio">Did you Purchase?</label>
+                                                    <div class="col-12 row radio__wrapper" id="radio">
+                                                        <div class="row col-4 col-md-2">
+                                                            <i></i><input class="radio__btn col-6" type="radio" id="yes"
+                                                                name="yes/no">
+                                                            <label for="yes">Yes</label>
+                                                        </div>
+                                                        <div class="row col-4 col-md-2">
+                                                            <i></i><input class="radio__btn col-6" type="radio" id="no"
+                                                                name="yes/no">
+                                                            <label for="no">no</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row file">
+                                                <div class="col-12 col-md-6 ">
+                                                    <label for="vat-invoice">VAT Invoice</label>
+                                                    <i></i><input type="file" id="vat-invoice" name="vat-invoice"
+                                                        accept="image/png, image/jpeg">
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <label for="car">Picture of Car Registeration</label>
+                                                    <input type="file" id="car" name="car"
+                                                        accept="image/png, image/jpeg"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label for="tires">Number of Purchased tires</label>
+                                                    <input id="tires" type="text"
+                                                        placeholder="Number of Purchased tires" required>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label for="shop">Name of shop</label>
+                                                    <input id="shop" type="text" placeholder="Name of shop" required>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-baseline">
+                                                <div class="col-12 col-md-3">
+                                                    <input class="btn-hover" type="submit" value="submit">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section class="booking-container">
+                                        <div class="booking-form upload-proof confirm">
+                                            <div class="row radio">
+                                                <div class="row col-12">
+                                                    <label class="col-12" for="radio">Did you Purchase?</label>
+                                                    <div class="col-12 row radio__wrapper" id="radio">
+                                                        <div class="row col-2">
+                                                            <i></i><input class="radio__btn col-6" type="radio" id="yes"
+                                                                name="yes/no">
+                                                            <label for="yes">Yes</label>
+                                                        </div>
+                                                        <div class="row col-2">
+                                                            <i></i><input class="radio__btn col-6" type="radio" id="no"
+                                                                name="yes/no">
+                                                            <label for="no">no</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label for="question-one">question one</label>
+                                                    <input id="question-one" type="text" placeholder="question one"
+                                                        required>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <label for="question-two">question two</label>
+                                                    <input id="question-two" type="text" placeholder="question two"
+                                                        required>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <label for="selection-one">selection one</label>
+                                                    <select name="selection-one" id="selection-one">
+                                                        <option value="A">Aaaaaaaaa</option>
+                                                        <option value="B">B</option>
+                                                        <option value="C">C</option>
+                                                        <option value="D">D</option>
+                                                        <option value="E">E</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <label for="selection-two">selection two</label>
+                                                    <select name="selection-two" id="selection-two">
+                                                        <option value="A">Aaaaaaaaa</option>
+                                                        <option value="B">B</option>
+                                                        <option value="C">C</option>
+                                                        <option value="D">D</option>
+                                                        <option value="E">E</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label for="comments">comments</label>
+                                                    <textarea id="comments" name="comments"
+                                                        placeholder="comments"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-12 col-md-3">
+                                                    <input class="btn-hover" type="submit" value="submit">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <div class="mt-btn_wrap text-center">
+                                        <a href="javascript:void(0)" data-back="2"
+                                            class="mt-btn_back pt5 pb5 text-center bg-green mb0 fc-white fw-400 skewX-25-minus border-left-orange-5">
+                                            <span
+                                                class="display-inline-block fc-white skewX-25 fs-20 text-uppercase">Back</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#select_model').on('change', function () {
+                var currentModel = $(this).val();
+                $('.mt-vehicle_details').fadeOut();
+                $('#' + currentModel).fadeIn();
+            });
+
+            //go to top
+            function goToTop() {
+                $('html, body').animate({
+                    scrollTop: $("#mt-progress_bar").offset().top - 50
+                });
+            }
+
+            //form step
+            $('.mt-btn_next').click(function () {
+                var activePage = $(this).attr('data-step');
+                var nextPage = activePage - 1;
+                $('.mt-form_content').css('transform', 'translateX(-' + nextPage + '00%)');
+                $('.mt-progress_percentage').removeClass().addClass('mt-progress_percentage step-' + activePage);
+                goToTop();
+                if (activePage == '2') {
+                    $('.mt-steps .step_2').addClass('mt-active');
+                }
+                if (activePage == '3') {
+                    $('.mt-steps .step_3').addClass('mt-active');
+                }
+            });
+            $('.mt-btn_back').click(function () {
+                var activePage = $(this).attr('data-back');
+                var backPage = $(this).attr('data-back') - 1;
+                $('.mt-form_content').css('transform', 'translateX(-' + backPage + '00%)');
+                $('.mt-progress_percentage').removeClass().addClass('mt-progress_percentage step-' + activePage);
+                goToTop();
+                if (activePage == '1') {
+                    $('.mt-steps .step_2').removeClass('mt-active');
+                }
+                if (activePage == '2') {
+                    $('.mt-steps .step_3').removeClass('mt-active');
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
